@@ -25,5 +25,6 @@ public class Player implements Comparable<Player> {
 	@Override
 	public int compareTo(Player o) {
 		return o.getScore() -this.getScore(); //양수냐 음수냐에 따라 오름차순 내림차순 정렬기준
+		// return -this.name.compareTo(o.getName()); //문자열 정렬
 	}
 }
